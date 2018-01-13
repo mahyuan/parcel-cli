@@ -2,11 +2,11 @@
   "name": "parcel-cli",
   "version": "1.0.0",
   "description": "parcel cli && react",
-  "main": "main.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "parcel -p 1234 ./src/main.js ",
-    "build": "parcel build ./src/main.js --out-dir ./dist"
+    "dev": "parcel -p 1234 index.html ",
+    "build": "parcel build index.html --out-dir ./dist"
   },
   "dependencies": {
     "antd": "^3.0.3",

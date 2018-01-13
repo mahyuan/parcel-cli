@@ -42,8 +42,10 @@ export default class App extends React.Component {
 				</ul>
 			</div>
 		)
+		document.getElementById('root')
 	}
 }
+
 
 
 

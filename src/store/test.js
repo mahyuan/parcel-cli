@@ -1,18 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-
-// ReactDOM.render(
-//   <h1>Hello, world!</h1>,
-//   document.getElementById('root')
-// )
-
+import React, { Component } from "react";
+import ReactDOM from 'react-dom'
 
 class Square extends React.Component {
   render() {
     return (
       <button className="square">
-
+        {/* TODO */}
       </button>
     );
   }
@@ -71,27 +64,3 @@ ReactDOM.render(
   <Game />,
   document.getElementById('root')
 );
-
-
-
-
-
-
-
-
-
-// import React from "react";
-// import { render } from "react-dom";
-// import App from "./App";
-// import "./styles/common.css";
-
-// let rootElement = document.getElementById('root');
-// if(!rootElement) {
-// 	rootElement = document.createElement('div');
-// }
-
-// render(<App />, rootElement);
-
-
-
-
