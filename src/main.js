@@ -14,7 +14,7 @@ function Square(props) {
     </button>
   );
 }
-/* 
+
 class Square extends React.Component {
 	constructor() {
 		super();
@@ -31,7 +31,7 @@ class Square extends React.Component {
     );
   }
 }
- */
+ 
 class Board extends React.Component {
 	constructor() {
 		super();
@@ -139,6 +139,9 @@ function calculateWinner(squares) {
   return null;
 }
 
+history = {
+  
+}
 
 
 
