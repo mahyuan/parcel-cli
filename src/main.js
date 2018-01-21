@@ -72,7 +72,7 @@ class Game extends React.Component {
     });
   }
 
-  jumpTo(setp) {
+  jumpTo(step) {
     this.setState({
       stepNumber: step,
       xIsNext: (step % 2) ? false : true,
