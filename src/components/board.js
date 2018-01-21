@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Square from './square';
 
-class Board extends React.Component {
+export  class Board extends React.Component {
   renderSquare(i) {
     return (
       <Square 
@@ -29,5 +30,3 @@ class Board extends React.Component {
     );
   }
 }
-
-module.exports = Board
